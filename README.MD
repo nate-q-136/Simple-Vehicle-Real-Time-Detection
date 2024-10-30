@@ -53,8 +53,8 @@ python main.py
 Press `q` to exit the real-time detection window.
 
 ### Demo
-
-![Demo GIF](path_to_your_demo.gif)
+I am using CPU so it's quite slow. To speed up the inference, your device should be equipped GPU
+![Demo GIF](demo/demo.gif)
 
 
 ## Code Overview

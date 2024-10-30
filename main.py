@@ -8,7 +8,7 @@ import cv2
 import torch
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-SOURCE_VIDEO_PATH = "video-vehicle1.mp4"
+SOURCE_VIDEO_PATH = "videos/video-vehicle1.mp4"
 MODEL = "yolov8s.pt"
 model = YOLO(MODEL).to(device)
 model.fuse()
